@@ -1,0 +1,133 @@
+i {
+    margin: 25px 9px 25px 7px;
+}
+a { 
+    text-decoration: none;
+    color: black;
+}
+p {
+    text-align: center;    
+}
+h1, h3 {
+    margin: 0; 
+    text-align: center;   
+}
+h4, h5 {
+    margin: 25px 0 2px 0; 
+}
+ul {
+    list-style: none;
+    padding-inline-start: 32px;
+}
+body {
+    position: relative;
+    font-family: 'Gotham HTF Book', sans-serif;
+    text-transform: uppercase;
+    max-width: 980px;
+    margin: 0 auto;    
+}
+.header {
+    background-image: url(images/1.jpg);
+    background-size: 980px auto;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    height: 100%;
+    position: relative;
+    padding: 100px 0 100px 0;    
+}
+.title {
+    position: absolute;
+    top: 38%;
+    width: 102%;
+    text-align: center;  
+    letter-spacing: 8px;  
+    font-size: 22px;
+    font-weight: 900;    
+}
+.list {    
+    letter-spacing: 5px;        
+    font-weight: 250;    
+}
+.list li {          
+    font-size: 12px;  
+    font-weight: 600;
+    margin: 20px 0 20px 0;      
+}
+.section1 { 
+    column-count: 2;
+    column-gap: 0;
+}
+.s1l { 
+    background-image: url(images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;         
+    color: white;
+    padding: 230px 0 230px 0;       
+}
+.s1r { 
+    background-image: url(images/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;    
+    right: 0px;   
+    color: white; 
+    padding: 219px 0 219px 0;    
+}
+.content { 
+    font-size: 15px;
+}
+.image { 
+    column-count: 5;
+    column-gap: 0;
+    height: 201px;
+}
+.image img{     
+    width: 192px;
+    height: 197px;
+    margin: 0 auto;    
+}
+.section3 {
+    column-count: 2;
+    column-gap: 0;
+    height: 150px;
+}
+.s3l {
+    padding-left:63px;    
+    position: relative;
+}
+input[type=text] {
+    width: 320px;
+    height: 23px;
+}
+input[type=submit] {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 28px;
+}
+.s3r {    
+    margin: 0 0 0 278px;
+    height: 140px;
+    padding-top: 45px;
+}
+.s3r h5 {
+    margin: 0 0 2px 32px; 
+    font-weight: 900;   
+}
+.s3r ul {
+    margin-top: 2px;
+    text-transform: none;
+    font-size: 12px;
+    height: 150px;
+    font-weight: 500;
+}
+.s3r li {
+    margin: 5px 0 5px 0;
+}
+.footer {
+    font-size: 10px;
+    text-transform: none;
+    margin: 40px;
+}
